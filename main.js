@@ -29,6 +29,6 @@ function alert(message) {
 
 if (alertTrigger) {
   alertTrigger.addEventListener('click', function () {
-    alert('Nice, you triggered this alert message!')
+    alert('Place order successfully, diamond added on your account in 5 minutes')
   })
 }
