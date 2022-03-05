@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+main,
+.main {
+  background: #0540fe;
+}
+.select {
+  background: #0540fe;
+  color: white;
+}
+.select:hover {
+  color: beige;
+}
+.btn-choice-price {
+  border: 1.5px solid black;
+}
+.btn-choice-price:hover {
+  transform: scale(0.97);
+}
+.btn:focus,
+.form-control:focus {
+  box-shadow: none !important;
+  transition: none !important;
+  /* background: #0043fff7; */
+}
+.form-control:focus {
+  border: 1.5px solid #0043fff7;
+}
+.price {
+  border-radius: 0.3rem !important;
+}
